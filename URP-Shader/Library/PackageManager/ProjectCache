@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638270959040000000
-    m_Hash: 1972617377
+      ticks: 638272599200000000
+    m_Hash: 1582290377
   m_LockFileStatus:
     m_FilePath: E:/GitHub/URP-Shader/URP-Shader/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638270959680000000
-    m_Hash: 2167222127
+      ticks: 638272599200000000
+    m_Hash: 1861388364
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -160,12 +160,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 2.0.1
     nextVersion: 
-- packageId: com.unity.ide.rider@3.0.18
+- packageId: com.unity.ide.rider@3.0.24
   testable: 0
   isDirectDependency: 1
-  version: 3.0.18
+  version: 3.0.24
   source: 1
-  resolvedPath: E:\GitHub\URP-Shader\URP-Shader\Library\PackageCache\com.unity.ide.rider@3.0.18
+  resolvedPath: E:\GitHub\URP-Shader\URP-Shader\Library\PackageCache\com.unity.ide.rider@3.0.24
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -174,7 +174,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: assets
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -244,13 +244,13 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638088746970000000
+  datePublishedTicks: 638221653400000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
+    revision: f5decc642e3618ce1c6827d47318260e61d64714
     path: 
   unityLifecycle:
     version: 3.0.18
@@ -399,6 +399,80 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.5
+    nextVersion: 
+- packageId: com.unity.polybrush@1.1.5
+  testable: 0
+  isDirectDependency: 1
+  version: 1.1.5
+  source: 1
+  resolvedPath: E:\GitHub\URP-Shader\URP-Shader\Library\PackageCache\com.unity.polybrush@1.1.5
+  assetPath: Packages/com.unity.polybrush
+  name: com.unity.polybrush
+  displayName: Polybrush
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: Mesh painting, sculpting, and geo-scattering tool for Unity.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.13
+    - 1.0.0-preview.16
+    - 1.0.0-preview.17
+    - 1.0.0
+    - 1.0.1-preview.1
+    - 1.0.1-preview.2
+    - 1.0.1
+    - 1.0.2-preview.1
+    - 1.0.2-preview.4
+    - 1.0.2
+    - 1.1.0-pre.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    compatible:
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.1.5
+    verified: 1.1.5
+  dependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  resolvedDependencies:
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - modeling
+  - sculpting
+  - push
+  - clay
+  - terrain
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 638267333890000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.polybrush@1.1/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/polybrush.git
+    revision: b09a7e63c6351fe13e571a642864ee2944c6eb39
+    path: 
+  unityLifecycle:
+    version: 1.1.2
     nextVersion: 
 - packageId: com.unity.render-pipelines.universal@12.1.10
   testable: 0
@@ -3189,6 +3263,7 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     - 1.8.7
+    - 1.8.8
     compatible:
     - 1.6.6
     - 1.7.0-pre.1
@@ -3205,6 +3280,7 @@ m_ResolvedPackages:
     - 1.8.3
     - 1.8.4
     - 1.8.7
+    - 1.8.8
     verified: 1.6.6
   dependencies:
   - name: com.unity.mathematics
@@ -3568,6 +3644,64 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 12.1.10
+    nextVersion: 
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: E:\GitHub\URP-Shader\URP-Shader\Library\PackageCache\com.unity.settings-manager@2.0.1
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    compatible:
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 1.0.3
     nextVersion: 
 - packageId: com.unity.searcher@4.9.1
   testable: 0
